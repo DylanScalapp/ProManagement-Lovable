@@ -341,7 +341,7 @@ export default function Tasks() {
 
       {/* Task Details Drawer */}
       <Drawer open={!!selectedTask} onOpenChange={(open) => !open && setSelectedTask(null)}>
-        <DrawerContent className="max-h-[95vh] h-[95vh]">
+        <DrawerContent className="max-h-[97vh] h-[97vh]">
           <DrawerHeader className="flex-shrink-0">
             <DrawerTitle>Détails de la tâche</DrawerTitle>
           </DrawerHeader>
